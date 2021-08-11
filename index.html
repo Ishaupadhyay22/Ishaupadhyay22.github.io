@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive food website design tutorial </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <!-- <a href="#" class="logo"><i class="fas fa-utensils"></i>HS</a> -->
+    <a href="#" class="logo"><img src="images/cake.png" alt=""> HS</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home"> <img src="images/house.png" alt=""> </a>   
+        <a href="#speciality"><img src="images/friends.png" alt=""></a>
+        <a href="#About"><img src="images/profile.png" alt=""></a>
+        <a href="#gallery"><img src="images/tourist.png" alt=""></a>
+        <!-- <a href="#review">review</a>
+        <a href="#order">order</a> -->
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Happy Birthday</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas accusamus tempore temporibus rem amet laudantium animi optio voluptatum. Natus obcaecati unde porro nostrum ipsam itaque impedit incidunt rem quisquam eos!</p>
+        <a href="#" class="btn">Click Here</a>
+        <canvas id="my-canvas"></canvas>
+    </div>
+
+    <div class="image">
+        <img src="images\Cover Pic.jpg" alt="">
+    </div>
+
+    
+    <!-- <script scr="js\index.min.js" alt=""></script>
+    <script>
+        let btn= document.querySelector('.btn');
+        let confe=document.querySelector('#my-canvas');
+        btn.onclick = function(){
+            confe.classList.add('active');
+        }
+    
+        var confettiSettings= { target:'my-canvas'};
+        var confetti= new ConfettiGenerator
+        (confettiSettings);
+        confetti.render();
+    </script>
+     -->
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> our <span>speciality</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="images/s-img-1.jpg" alt="">
+            
+            <div class="content">
+                <img src="images/wish1.png" alt="">
+                <h3>tasty burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-2.jpg" alt="">
+            <div class="content">
+                <img src="images/birthday-boy.png" alt="">
+                <h3>tasty pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-3.jpg" alt="">
+            <div class="content">
+                <img src="images\confetti.png" alt="">
+                <h3>cold ice-cream</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-4.jpg" alt="">
+            <div class="content">
+                <img src="images\chocolate-bar.png" alt="">
+                <h3>cold drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-5.jpg" alt="">
+            <div class="content">
+                <img src="images\star.png" alt="">
+                <h3>tasty sweets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="images/s-img-6.jpg" alt="">
+            <div class="content">
+                <img src="images\gift.png" alt="">
+                <h3>healty breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- speciality section ends -->
+
+<!-- popular section starts  -->
+<!-- 
+<section class="popular" id="popular">
+
+    <h1 class="heading"> most <span>popular</span> foods </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="images/p-1.jpg" alt="">
+            <h3>tasty burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="images/p-2.jpg" alt="">
+            <h3>tasty cakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="images/p-3.jpg" alt="">
+            <h3>tasty sweets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="images/p-4.jpg" alt="">
+            <h3>tasty cupcakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="images/p-5.jpg" alt="">
+            <h3>cold drinks</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="images/p-6.jpg" alt="">
+            <h3>cold ice-cream</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- popular section ends -->
+
+<!-- steps section starts  -->
+<section>
+
+<div class="step-container" id="About">
+
+    <h1 class="heading">how it <span>works</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="images/loader.gif" alt="">
+            <h3>choose your favorite food</h3>
+        </div>
+        <!-- <div class="box">
+            <img src="images/Logo-1.jpg" alt="">
+            <h3>free and fast delivery</h3>
+        </div> -->
+        <div class="box">
+            <img src="images/meditation.png" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        <div class="box">
+            <img src="images/step-4.jpg" alt="">
+            <h3>and finally, enjoy your food</h3>
+        </div>
+    
+    </section>
+
+</div>
+</section>
+<!-- steps section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> :) <span> Musings!!! </span> </h1>
+
+    <div class="box-container">
+
+        <!-- <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div> -->
+        <!-- <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div> -->
+        <div class="box">
+            <img src="images/G-2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-1.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/intro-2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/intro-6.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/G-3.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/intro-1.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <!-- <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div> -->
+        <!-- <div class="box">
+            <img src="images/g-10.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div> -->
+        <!-- <div class="box">
+            <img src="images/G-11.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+       
+        <div class="box">
+            <img src="images/G-13.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div> -->
+        <!-- <div class="box">
+            <img src="images/G-14.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, ipsum.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div> -->
+       
+
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+<!-- 
+<section class="review" id="review">
+
+    <h1 class="heading"> our customers <span>reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti delectus, ducimus facere quod ratione vel laboriosam? Est, maxime rem. Itaque.</p>
+        </div>
+
+    </div>
+
+</section> -->
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<!-- <section class="order" id="order">
+
+    <h1 class="heading"> <span>order</span> now </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="images/order-img.jpg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="food name">
+            </div>
+
+            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+      
+       <li><a href="#" ><span class="fab fa-facebook"></span></a></li> 
+       <li><a href="#" ><span class="fab fa-instagram"></span></a></li>  
+       <li><a href="#" ><span class="fab fa-linkedin"></span></a></li> 
+       <li><a href="#" ><span class="fab fa-github"></span></a></li> 
+       <li><a href="#" ><span class="fab fa-twitter"></span></a></li> 
+       <li><a href="#" ><span class="fa fa-envelope"></span></a></li> 
+     
+    </div>
+
+    <h1 class="credit"> created by <span> PS-I </span> | all rights reserved! </h1>
+
+</section>
+
+<!-- scroll top button  -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader  -->
+<div class="loader-container">
+   <span> <img src="images/s-5.png" alt=""> </span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</section>
+
+
+
+</body>
+</html>
