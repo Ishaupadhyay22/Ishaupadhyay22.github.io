@@ -681,12 +681,12 @@ header .navbar a:hover{
 }
 .footer .share li a .fa-linkedin:hover
 { 
-  color: #cb6ad8;
+  color: #5b2263;
   font-size: 25px; 
 }
 .footer .share li a .fa-github:hover
 { 
-  color: #44f80e;
+  color: #f8a60e;
   font-size: 25px; 
 }
 .footer .share li  a .fa-twitter:hover
